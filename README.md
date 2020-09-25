@@ -1,3 +1,5 @@
+## Tentang
+
 Boilerplate untuk landing page ISE 2020. Menggunakan [parcel](https://parceljs.org/) sebagai bundler. Plugin parcel yang dipakai meliputi :
 
 - autoprefixer, digunakan untuk memberikan prefix pada style css agar kompatibel dengan browser - browser yang didefinisikan pada konfigurasi `.browserlistrc`. Konfigurasi terletak pada `postcssrc` dan `.browserlistrc`.
