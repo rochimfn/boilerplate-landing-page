@@ -1,0 +1,49 @@
+{
+  "name": "boilerplate-landing-page",
+  "version": "1.0.0",
+  "description": "boilerplate untuk landing page ise",
+  "main": "index.js",
+  "author": "rochimfn",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
+    "watch": "parcel watch src/index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "autoprefixer": "9.8.6",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-custom-dist-structure": "^1.1.16",
+    "parcel-plugin-purgecss": "^3.0.0",
+    "postcss-modules": "^3.2.2"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "assets/js",
+      ".js.map": "assets/js",
+      ".css": "assets/css",
+      ".css.map": "assets/css",
+      "assets/images": [
+        ".jpg",
+        ".png",
+        ".svg"
+      ],
+      "assets/fonts": [
+        ".woff",
+        ".woff2",
+        ".ttf"
+      ],
+      ".fileExtension": "folder/in/dist",
+      "folder/in/dist": [
+        ".file",
+        ".extensions"
+      ]
+    }
+  }
+}
